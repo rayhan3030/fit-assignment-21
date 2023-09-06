@@ -1,0 +1,159 @@
+
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Custom CSS for the navbar */
+.navbar {
+    background-color: #f8f9fa; /* Background color */
+}
+
+.navbar-nav {
+    margin: 0 auto; /* Center the navigation items */
+}
+
+.navbar-nav .nav-item {
+    margin-right: 50px; /* Add spacing between navigation items */
+}
+
+.carousel-inner img {
+    max-height: 450px; /* Adjust this value as needed */
+}
+
+/* Center the logo image on smaller screens */
+@media (max-width: 992px) {
+    .navbar-brand {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+   /* Custom CSS for aligning card contents and increasing gap */
+   .card {
+    margin-bottom: 20px; /* Increase gap between cards by 20px (10px on top and 10px on bottom) */
+}
+
+.card-body {
+    padding: 20px; /* Add some padding to card body for content alignment */
+}
+
+
+
+
+/* Style for the Hero section */
+.hero-section {
+    background-color: #f8f9fa; /* Background color */
+    padding: 80px 0; /* Top and bottom padding */
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    padding: 20px;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn-read-more {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-read-more:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* courses  */
+/* Custom styles for the cards */
+.custom-card {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    padding: 20px;
+}
+
+.custom-card h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.custom-card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Sticky Chat Button */
+.sticky-chat-button {
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    right: 20px; /* Adjust the distance from the right as needed */
+    z-index: 9999; /* Ensure it's above other elements */
+}
+
+#chatButton {
+    border-radius: 50px; /* Rounded button shape */
+}
+
+
+/* Sticky Social Icons */
+.sticky-social-icons {
+    position: fixed;
+    bottom: 300px; /* Adjust the distance from the bottom as needed */
+    right: 20px; /* Adjust the distance from the right as needed */
+    z-index: 9999; /* Ensure it's above other elements */
+}
+
+.social-icon {
+    display: block;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #007bff; /* Adjust the background color */
+    color: #fff; /* Adjust the icon color */
+    border-radius: 50%; /* Rounded icon shape */
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.social-icon:hover {
+    background-color: #0056b3; /* Adjust the hover background color */
+}
