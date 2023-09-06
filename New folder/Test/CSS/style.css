@@ -1,0 +1,12 @@
+/* Custom CSS for the navbar */
+.navbar {
+    background-color: #f8f9fa; /* Background color */
+}
+
+.navbar-nav {
+    margin: 0 auto; /* Center the navigation items */
+}
+
+.navbar-nav .nav-item {
+    margin-right: 50px; /* Add spacing between navigation items */
+}
